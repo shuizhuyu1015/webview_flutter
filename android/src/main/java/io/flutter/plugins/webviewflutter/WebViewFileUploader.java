@@ -41,7 +41,7 @@ public class WebViewFileUploader {
     Matisse.from(activity)
             .choose(MimeType.ofAll())
             .countable(true)
-            .maxSelectable(15)
+            .maxSelectable(1)
 //                .addFilter(new GifSizeFilter(320, 320, 5 * Filter.K * Filter.K))
 //                .gridExpectedSize(getResources().getDimensionPixelSize(R.dimen.grid_expected_size))
             .restrictOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED)
